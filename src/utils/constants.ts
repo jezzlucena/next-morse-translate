@@ -1,5 +1,7 @@
 import { invert } from "lodash"
 
+export const MORSE_SAMPLE_RATE: number = 44100;
+export const MORSE_MAX_AMPLITUDE: number = 0.5;
 export const MORSE_FREQUENCY_HZ: number = 600;
 export const MORSE_TIME_UNIT_MS: number = 100;
 export const MORSE_ELEMENT_TO_DURATION: { [key: string]: number } = {
